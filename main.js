@@ -4,6 +4,9 @@ function createWindow() {
     const win = new BrowserWindow({
         width: 800,
         height: 600,
+        backgroundColor: '#2e2c29',
+        alwaysOnTop: true,
+        frame: false,
         webPreferences: {
             nodeIntegration: true
         }
